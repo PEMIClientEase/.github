@@ -3,7 +3,7 @@
 # 👋 Welcome to PEMI ClientEase GitHub Organization
 
 Welcome to the **PEMI ClientEase** GitHub organization!  
-**PEMI ClientEase** is a comprehensive **client management system** designed to help businesses streamline customer interactions, service requests, and data-driven decision-making.  
+**PEMI ClientEase** is a comprehensive **client management onboarding/updating system** designed to help PEMI streamline customer interactions, account opening, and account updating.  
 
 This organization is maintained by the **PEMI Development Team** and serves as the central hub for all projects related to **ClientEase**.  
 Whether you're a new developer or a team lead, this repository will help you get started with our development processes, best practices, and technologies.
