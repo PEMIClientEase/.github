@@ -36,7 +36,7 @@ This repository consists of two projects:
 - **PEMIClientEase.DataAccessAPI** - Manages database transactions and data storage.
 
 #### 🛠️ Tech Stack:
-- **Backend Framework**: .NET MVC  
+- **Backend Framework**: ASP.NET Web API  
 - **Database**: PostgreSQL  
 
 #### 🚀 Features:
