@@ -17,32 +17,30 @@ The **PEMIClientEase.UI** repository contains the **Angular-based** frontend of 
 
 #### 🛠️ Tech Stack:
 - **Frontend Framework**: Angular  
-- **UI Components**: PrimeNG, Bootstrap  
-- **State Management**: RxJS  
-- **Styling**: SCSS  
+- **UI Components**: PrimeNG, PrimeFlex  
+- **Styling**: CSS  
 - **Build System**: Angular CLI  
 
 #### 🚀 Features:
-- Client profile management  
+- Client profile onboarding and updating  
 - Real-time updates and notifications  
 - Advanced filtering and search  
-- Dashboard with interactive visualizations  
 
 ---
 
-### 2️⃣ [PEMIClientEase.APIs](https://github.com/PEMIClientEase/PEMIClientEase.APIs) - The Backend API  
-The **PEMIClientEase.APIs** repository contains the **.NET-based** backend of the ClientEase system. It manages data processing, API endpoints, and integrates with the PostgreSQL database.
+### 2️⃣ [PEMIClientEase.APIs](https://github.com/PEMIClientEase/PEMIClientEase.APIs) - The Backend APIs  
+The **PEMIClientEase.APIs** repository contains the **.NET MVC-based** backend of the ClientEase system. It manages data processing, API endpoints, and integrates with the PostgreSQL database.
+
+This repository consists of two projects:
+- **PEMIClientEase.BusinessAPI** - Handles business logic, client interactions, and API endpoints.
+- **PEMIClientEase.DataAccessAPI** - Manages database transactions and data storage.
 
 #### 🛠️ Tech Stack:
-- **Backend Framework**: .NET Core  
+- **Backend Framework**: .NET MVC  
 - **Database**: PostgreSQL  
-- **Authentication & Security**: JWT, OAuth2  
-- **API Documentation**: Swagger  
-- **Deployment**: Docker (Planned for future release)  
 
 #### 🚀 Features:
 - RESTful API for frontend communication  
-- Secure user authentication  
 - Data validation and business logic processing  
 - Integration with external services  
 
@@ -78,7 +76,7 @@ ng serve
 
 ---
 
-### **3️⃣ Setting Up the Backend (API - .NET Core)**
+### **3️⃣ Setting Up the Backend (API - .NET MVC)**
 
 #### **Step 1: Navigate to the backend directory**
 ```bash
@@ -103,26 +101,14 @@ dotnet run
 
 ---
 
-## 🔧 Contributing Guidelines
+## 🔧 Contributing Guidelines (Draft)
 
 We encourage collaboration and contributions from the development team. Please follow these guidelines:
 
-- **Branching Model**: Use `feature/`, `bugfix/`, or `release/` branches.
+- **Branching Model**: Use `<NameOfDeveloper>_PEMIClientEaseUI_Dev/`, or `<NameOfDeveloper>_PEMIClientEaseAPIs_Dev/` branches.
 - **Commit Messages**: Write meaningful commit messages (e.g., `fix: resolve UI alignment issue on dashboard`).
 - **Pull Requests**: All changes should be made through pull requests and will be reviewed before merging.
-- **Code Standards**: Follow **Angular best practices** for frontend and **.NET Core best practices** for backend.
-
----
-
-## 📞 Need Help?
-
-If you have any questions, reach out to the **PEMI Development Team**:
-- 📧 **Email**: support@pemi.com
-- 🏢 **Office**: PEMI Headquarters, Manila, Philippines
-- 📄 **Documentation**: [ClientEase Docs](https://docs.pemi.com)
-
-For more information about **PEMI**, visit our website:  
-🌐 [https://www.pemi.com](https://www.pemi.com)
+- **Code Standards**: Follow **Angular best practices** for frontend and **.NET MVC best practices** for backend.
 
 ---
 
