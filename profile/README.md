@@ -28,7 +28,7 @@ The **PEMIClientEase.UI** repository contains the **Angular-based** frontend of 
 
 ---
 
-### 2️⃣ [PEMIClientEase.APIs](https://github.com/PEMIClientEase/PEMIClientEase.APIs) - The Backend APIs  
+### 2️⃣ [PEMIClientEase.APIs](https://github.com/PEMIClientEase/PEMIClientEase.CoreAPI) - The Backend APIs  
 The **PEMIClientEase.APIs** repository contains the **.NET MVC-based** backend of the ClientEase system. It manages data processing, API endpoints, and integrates with the PostgreSQL database.
 
 This repository consists of two projects:
